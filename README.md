@@ -53,6 +53,7 @@ if not configed local environment:
     CustomLog /var/log/apache2/ernestasmaleckas.com_access.log combined
 </VirtualHost>
 ```
+ - Restart apache2 service
 
 ## TO DO list
 
