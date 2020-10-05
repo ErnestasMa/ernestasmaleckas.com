@@ -11,6 +11,35 @@ Used technologies
 
 IN PROGRESS
 
+
+
+
+
+
+
+## Setup in local environment
+
+ - Add ip and domain in hosts (127.0.0.1 ernestasmaleckas.com)
+ - Create virtualhost 
+ 
+ <VirtualHost *:80>
+   ServerName ernestasmaleckas.com
+   ServerAlias www.ernestasmaleckas.com
+
+   DocumentRoot "/var/www/html/ernestasmaleckas.com/public"
+   DirectoryIndex index.php
+   <Directory "/var/www/html/ernestasmaleckas.com/public">
+      Options Indexes FollowSymLinks
+      AllowOverride All
+      Order Allow,Deny
+      Allow from all
+   </Directory>
+
+    ErrorLog /var/log/apache2/ernestasmaleckas.com_error.log
+    CustomLog /var/log/apache2/ernestasmaleckas.com_access.log combined
+</VirtualHost>
+
+
 ## TO DO list
 
 Weather page
