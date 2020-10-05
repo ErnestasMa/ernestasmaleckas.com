@@ -34,7 +34,6 @@ IN PROGRESS
       Order Allow,Deny
       Allow from all
    </Directory>
-
     ErrorLog /var/log/apache2/ernestasmaleckas.com_error.log
     CustomLog /var/log/apache2/ernestasmaleckas.com_access.log combined
 </VirtualHost>
