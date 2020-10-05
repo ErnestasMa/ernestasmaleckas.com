@@ -2,6 +2,15 @@
 
 This project's purpose is to learn symfony framework
 
+Used technologies
+ - Symfony
+ - Bootstrap
+ - Jquery
+
+## How to install
+
+IN PROGRESS
+
 ## TO DO list
 
 Weather page
