@@ -9,11 +9,26 @@ Used technologies
 
 ## How to install
 
-IN PROGRESS
+Requirements:
+ - composer
+ - npm
+ - yarn
+ - symfony (wget https://get.symfony.com/cli/installer -O - | bash)
 
+ (IN PROGRESS)
+ 
+```
+- clone git repository
+- create database schema
+- (Optional) config local environment
+- composer install
+- yarn install
+- yarn run dev
 
+if not configed local environment:
+- symfony server:start
 
-
+```
 
 
 
